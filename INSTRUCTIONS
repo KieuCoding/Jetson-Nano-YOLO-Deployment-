@@ -1,0 +1,11 @@
+To setup YOLO detection on the Jetson nano, please follow this link: https://web.archive.org/web/20250207013937/https://i7y.org/en/yolov8-on-jetson-nano/
+*Orginal domain no longer exists, also if this link expires i'll leave a pdf copy in this repository
+
+What my program does: It access your computers' webcam or external cam if avaliable then performs live object detection on your Jetson Nano
+Extra feature: Press spacebar to manually take a picture on the camera
+Fun little ideas: You can definitely modify the program to take pictures if a certain object is detected, Or add in GPIO functions into the program to make certain hardware components react if detecting a particular object
+
+Software requirements:
+Python >= 3.8
+pip install: Opencv 
+download the following into the ultralytics folder torch files: torch-1.11.0a0+gitbc2c6ed-cp38-cp38-linux_aarch64.whl, torchvision-0.12.0a0+9b5a3fe-cp38-cp38-linux_aarch64.whl
